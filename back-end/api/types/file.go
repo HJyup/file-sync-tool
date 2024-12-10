@@ -1,4 +1,4 @@
-package _type
+package types
 
 type FileStore interface {
 	CreateFile(payload *CreateFilePayload) (*File, error)
